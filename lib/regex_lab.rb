@@ -22,7 +22,7 @@ end
 end
 
 def valid_phone_number?(phone)
-if text.match(/[0-9]{10}/)
+if text.match(/\d{10}/)
 return true
 else
   false
