@@ -19,10 +19,12 @@ return true
 else
   false
 end
+end
 
 def valid_phone_number?(phone)
 if text.match(/\d[10]/)
 return true
 else
   false
+end
 end
